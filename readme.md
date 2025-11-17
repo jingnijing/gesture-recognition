@@ -17,6 +17,7 @@
 
 ### 폴더 구조
 **gesture-recognition** 
+```
 ├─gesture_dependencies
 ├─gesture_flask_api
 │  ├─model
@@ -29,7 +30,8 @@
     │  └─__pycache__
     ├─main_models
     └─train_data
-    
+```
+
 #### [gesture_dependencies]
 제스처 모델 개발 requirements.txt 초기 version
 
@@ -40,6 +42,7 @@
 제스처 모델 정의/학습/추론 코드 및 학습 데이터 폴더
 (비교적 최신 requirements 저장되어 있음) 
 모델 추가 학습 및 재학습 시 해당 파일, 환경 세팅해서 이어서 개발 가능
+
 
 
 
