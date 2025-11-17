@@ -1,4 +1,4 @@
-#### train.ipynb
+### train.ipynb
 -> 제스처 인식 모델 학습 코드
 
 #### inference.py 
