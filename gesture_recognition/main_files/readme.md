@@ -8,9 +8,10 @@
 - 생성된 데이터셋(csv) 을 기반으로 데이터 복제/증강
 
 
-(참고)
-model.py로 모델 파라미터 및 레이어 수정 가능
-make_data.ipynb로 손 랜드마크를 추출
-CustomDataset.py로 데이터 전처리 (필요에 따라)
-data_clone.ipynb로 데이터셋 복제 및 증강 가능 (필요에 따라)
+#### (참고)
+- model.py로 모델 파라미터 및 레이어 수정 가능
+- make_data.ipynb로 손 랜드마크를 추출
+- CustomDataset.py로 데이터 전처리 (필요에 따라)
+- data_clone.ipynb로 데이터셋 복제 및 증강 가능 (필요에 따라)
+
 
