@@ -19,17 +19,40 @@
 **gesture-recognition** 
 ```
 ├─gesture_dependencies
+|   └─ requirements_init.txt
+|   └─ requirements_min.txt
+|   └─ requirements_ori.txt
+|   └─ readme.md
 ├─gesture_flask_api
 │  ├─model
+|  |    └─ model_dict()_gesture_frame_30_indj.pt
+|  |    └─ model_gesture_frame_30_indj.pt
 │  ├─templates
+|  |    └─ index.html
 │  ├─utils
-│  │  └─__pycache__
+|  |    └─ model.py
+|  |    └─ preprocess.py
+│  │    └─__pycache__
+|  ├─app.py
+|  ├─requirements.txt
 │  └─__pycache__
 └─gesture_recognition
     ├─main_files
+    |  └─CustomDataset.py
+    |  └─make_dataset.ipynb
+    |  └─model.py
+    |  └─data_clone.ipynb
+    |  └─readme.md
     │  └─__pycache__
     ├─main_models
-    └─train_data
+    ├─train_data
+    ├─inference.py
+    ├─test.ipynb
+    ├─test_data_collection.ipynb
+    ├─train.ipynb
+    ├─webcam_stream.py
+    ├─requirements.txt
+    └─readme.md
 ```
 
 #### [gesture_dependencies]
@@ -42,6 +65,7 @@
 제스처 모델 정의/학습/추론 코드 및 학습 데이터 폴더
 (비교적 최신 requirements 저장되어 있음) 
 모델 추가 학습 및 재학습 시 해당 파일, 환경 세팅해서 이어서 개발 가능
+
 
 
 
